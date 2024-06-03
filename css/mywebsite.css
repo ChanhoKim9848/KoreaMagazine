@@ -1,0 +1,94 @@
+/* External stylesheet */
+
+/* Font family*/
+@font-face { 
+	font-family: 'NanumBarunGothic';
+	color:#cc9900;
+
+/* Font url */
+src: url('/fonts/NanumBarunGothic.eot');
+src: url('/fonts/NanumBarunGothic.eot') format('embedded-opentype'),
+url('/fonts/NanumBarunGothic.woff') format('woff');
+}
+
+/* Font for body */
+body {
+	font-family: 'NanumBarunGothic', 'serif';
+	color:#cc9900;
+}
+
+/* color of the text */
+a {
+	color: #cc9900;
+	text-decoration: none;
+}
+
+/* color of the text when it is hover*/
+a:hover {
+	color: #cc9900;
+	text-decoration: none;
+	cursor: pointer;
+}
+	/* Navbar section */
+
+	.navbar-default {
+	 /* Background Colour */
+	    background-image: url('../images/Pattern.jpg');
+		border-color: #cc9900;
+	}
+	.navbar-default .navbar-brand
+	{
+		color: ##cc9900;
+
+	}
+
+	.navbar-default .navbar-brand:hover,
+	.navbar-default .navbar-brand:focus        /*when the mouse on the title*/
+	{
+		background-color: transparent;
+		color: #cc9900;
+	}
+
+	.navbar-default .navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus {      /*Chosen Navigation colour*/
+		color: green;
+		background-image: url(../images/Pattern.jpg)
+	}
+
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus {  /*when the mouse on the text*/ 
+		color: #cc9900;
+	}
+
+	.navbar-default .navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus {      /* when dropdown open -> colour */
+		text-decoration: none;
+		background-color: #cc9900;
+	}
+
+	.navbar-default .navbar-nav > li >a { /* navbar default colour */
+		color: white;
+
+	}
+
+@media (max-width: 320px;) { /*when screen is small and the mouse on the items*/
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #cc9900;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,             
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {  /* when the mouse on the text (small)*/
+		color: #bbbbbb;
+	}
+}
+
+ 
+
+
+
+
+
+
+
+
